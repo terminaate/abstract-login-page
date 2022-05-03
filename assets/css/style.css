@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*, *:after, *:before {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.main {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #F6F6F6;
+    display: flex;
+}
+
+.rightSide,
+.leftSide {
+    float: left;
+    height: 100%;
+}
+
+.leftSide {
+    width: 45%;
+}
+
+.rightSide {
+    width: 55%;
+    background-color: #E5E5E5;
+}
+
+.rightSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 68px;
+}
+
+.logo p {
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.loginContent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    color: #393939;
+}
+
+.desc {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #393939;
+}
+
+.input {
+    padding-block: 10px;
+    padding-left: 46px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.input::placeholder {
+    color: #203060;
+}
+
+.inputs {
+    width: calc(100% - 200px);
+    margin-top: 40px;
+}
+
+.rememberMe {
+    display: flex;
+    margin-top: 41px;
+}
+
+.rememberMe label {
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #666666;
+    user-select: none;
+}
+
+.btnContainer {
+    width: calc(100% - 200px);
+    margin-top: 50px;
+}
+
+.button {
+    cursor: pointer;
+    width: 100%;
+    padding-block: 10px;
+    border-radius: 5px;
+    background-color: #F35D5D;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.circles {
+    height: 100%;
+    margin-bottom: 40px;
+}
