@@ -19,7 +19,7 @@
 .rightSide,
 .leftSide {
     float: left;
-    height: 100%;
+    width: 100%;
 }
 
 .leftSide {
@@ -134,5 +134,6 @@
 
 .circles {
     height: 100%;
+    width: 100%;
     margin-bottom: 40px;
 }
